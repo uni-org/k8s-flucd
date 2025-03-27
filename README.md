@@ -8,7 +8,7 @@
 ## Index
 - [flux-cli (Bootstrap)、KASなし](./flux-cli-no-kas.md)
 - [flux-cli (Bootstrap)、KASあり](./flux-cli-kas.md)
-- [flux-ope、KASあり](./flux-ope.md)
+- [flux-ope](./flux-ope.md)
 - [flux-cli (Terraform)、KASなし](./flux-terraform-kas.md)
 - [flux-cli (Terraform)、KASあり](./flux-terraform-no-kas.md)
 
