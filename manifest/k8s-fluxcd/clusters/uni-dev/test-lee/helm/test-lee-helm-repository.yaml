@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: HelmRepository
+metadata:
+  name: k8s-sample-helm
+  namespace: test-lee
+spec:
+  interval: 1m0s
+  secretRef:
+    name: unimin
+  url: https://gitlab.com/api/v4/projects/68340042/packages/helm/stable
