@@ -1,4 +1,4 @@
-# flux-ope、KASあり
+# flux-ope
 ## 1. 無償版
 - https://flux-framework.org/flux-operator/getting_started/index.html
 - https://github.com/flux-framework/flux-operator/tree/main
@@ -13,3 +13,5 @@ https://fluxcd.control-plane.io/operator/
 - GitlabからもこちらのOperator構成をお勧めしているが、コストかかる。
 - 一応できることはかなり多くて、何よりもHub & Spoke構成が可能となるため、Fluxの各種Conponentを一つのクラスタで統合管理することができる。
 - Openshiftとの互換性も取れていると書かれている。Openshiftからの提供版もあるみたい。
+  - https://github.com/controlplaneio-fluxcd/flux-operator/blob/main/config/terraform/main.tf
+  - https://fluxcd.control-plane.io/operator/install/
