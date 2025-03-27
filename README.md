@@ -21,7 +21,7 @@
   - terraformにて、flux componentをインストールすることも可能だが、全自動化のことを考えると（将来的にはWeb Consoleからパラメータを入力しGUIベースでクラスタを作成する予定）向いてないと思われる。
     - 自動的にterraformコードを作成->git pushする仕組みが必要となるため
   - ただし、KASを導入することによって各クラスタに`gitlab-agent`とのコンポーネントが増えてしまうのが少し懸念。
-  - KASを導入せず、gitlabにpushした瞬間、gitlab ci機能にてflux reconcileを行うworkflowを実装すればいけそう。※要確認
+  - KASを導入せず、gitlabにpushした瞬間、gitlab ci/cd機能にて差分のソースコードのみkubectl applyを行うworkflowを実装すればいけそう。※要確認
 
 ### helm vs kustomize?
 #### kustomize構成
